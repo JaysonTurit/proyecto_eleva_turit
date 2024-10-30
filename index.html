@@ -412,6 +412,7 @@
           </div>
         </div>
       </section>
+
       <section id="contact" class="contact section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -466,13 +467,15 @@
               <!-- End Info Item -->
             </div>
 
+            <!--Inicio de formulario-->
             <div class="col-lg-8">
               <form
-                action="forms/contact.php"
+                id="contactForm"
                 method="post"
                 class="php-email-form"
                 data-aos="fade-up"
                 data-aos-delay="200"
+                action="#"
               >
                 <div class="row gy-4">
                   <div class="col-md-6">
@@ -480,7 +483,7 @@
                       type="text"
                       name="name"
                       class="form-control"
-                      placeholder="Tú nombre"
+                      placeholder="Tu nombre"
                       required=""
                     />
                   </div>
@@ -516,10 +519,10 @@
                   </div>
 
                   <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
+                    <div class="loading">Cargando</div>
                     <div class="error-message"></div>
                     <div class="sent-message">
-                      Tu mensaje ha sido envíado. ¡Pronto nos pondremos en
+                      Tu mensaje ha sido enviado. ¡Pronto nos pondremos en
                       contacto contigo, gracias!
                     </div>
 
@@ -647,6 +650,7 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
